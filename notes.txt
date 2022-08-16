@@ -1,0 +1,15 @@
+Interfaces:-
+
+	1. Configuration 
+		--> this is main interface which is going to read hibernate congifuration of xml file.
+	2. Session Factory
+		--> this interface is used to generate/produce session.
+	3. Session
+		--> this interface is used to execute the query.
+	4. Transaction
+		--> this interface is used to manage the transaction [ commit and roll back ].
+		
+	5. Query
+		--> this interface is used to create custom sql query.
+	6. Criteria Interface 
+		--> this interface is used for conditional query.
