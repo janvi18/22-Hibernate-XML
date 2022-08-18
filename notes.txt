@@ -13,3 +13,7 @@ Interfaces:-
 		--> this interface is used to create custom sql query.
 	6. Criteria Interface 
 		--> this interface is used for conditional query.
+		
+		
+		book
+		   id,name,author,lang,qty,price    

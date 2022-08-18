@@ -9,13 +9,20 @@ public class App
     public static void main( String[] args )
     {
 
-    	System.out.println("----------------");
+     
     	Configuration cfg = new Configuration().configure("Hibernate-Config.xml");
     	
     	SessionFactory sf = cfg.buildSessionFactory();
     	
-    	Session session = sf.openSession();
+    	Session session = sf.openSession();//query 
+    	
+    	//query
     	
     	
+    	session.close();
     }
 }
+
+
+//ORM 
+//class -> table |  hbm.xml 
